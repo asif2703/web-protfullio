@@ -5,16 +5,22 @@ body{
 h1{
     font-size:50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color:gray;
+}
 .read{
     color:goldenrod;
 }
-.separate{
+.separate-colom{
     width:35%;
     float:left;
     margin-left:3%;
     padding:2%;
 }
-.separate img{
+.separate-colom img{
     width:90%;
 }
 .acme-banner{
@@ -24,14 +30,51 @@ h1{
 }
 section{
     height:500px;
+    padding:150px
 }
 .conection{
     text-decoration:none;
-    background-color:Blue;
     padding:10px 20px;
     border-radius:5px;
     color:white;
     font-weight:bold;
+    background-color:blue;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat :no-repeat;
+    background-position : right;
+
+
+}
+.single-experience{
+    box-shadow:10px 10px 50px gray ;
+    border-radius: 3px;
+    height: 40%;
+
+
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+
+}
+#ass_merchandiser{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg,green ,lightgreen); 
+    border-image-slice: 1;
+}
+
+#tr_gpq{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, #a06c5c ,#c93e07);
+    border-image-slice: 1;
+}
+
    
+footer p{
+        text-align: center;
+    font-size: 8px;
 
 }
